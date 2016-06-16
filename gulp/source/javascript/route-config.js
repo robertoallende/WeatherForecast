@@ -1,5 +1,5 @@
 // ROUTES
-weatherApp.config(function ($routeProvider) {
+weatherApp.config(function ($routeProvider,  $locationProvider) {
    
     $routeProvider
     
@@ -21,5 +21,9 @@ weatherApp.config(function ($routeProvider) {
     .otherwise({
         redirectTo: '/'
     });
+
+    // use the HTML5 History API
+    // Following: https://scotch.io/tutorials/pretty-urls-in-angularjs-removing-the-hashtag
+    $locationProvider.html5Mode(true);
 
 });
