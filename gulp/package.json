@@ -1,0 +1,34 @@
+{
+  "name": "weather-forecast",
+  "version": "1.0.0",
+  "description": "An angular single page app forked from a sample at Anthony Alicea's Learn and Understand AngularJS course at Udemy. The goal of the fork is to use and add support for Gulp and other tools.",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robertoallende/WeatherForecast"
+  },
+  "keywords": [
+    "AngularJS",
+    "Gulp",
+    "SASS"
+  ],
+  "author": "Anthony Alicea, Roberto Allende",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robertoallende/WeatherForecast/issues"
+  },
+  "homepage": "https://github.com/robertoallende/WeatherForecast",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-serve": "^1.2.0",
+    "gulp-util": "^3.0.7",
+    "jshint": "^2.9.2",
+    "jshint-stylish": "^2.2.0"
+  }
+}

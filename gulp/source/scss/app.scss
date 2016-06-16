@@ -1,0 +1,30 @@
+$fancy-font: 'Lobster', cursive !important;
+$font-stack:    Helvetica, sans-serif;
+$font-space: 1.05em !important;
+
+$primary-color: #333;
+$header-background-color: #c6538c !important;
+$header-font-color: #FFF !important;
+
+html, body, input, select, textarea {
+    font-size: $font-space;
+}
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+.navbar {
+  background-color: $header-background-color;
+}
+
+.navbar-brand {
+  font-family: $fancy-font;  
+
+}
+
+.navbar a {
+  color: $header-font-color;  
+  font-size: 1.3em;
+}
