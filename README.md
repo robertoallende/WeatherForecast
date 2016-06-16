@@ -1,5 +1,5 @@
 #Weather Forecast using Gulp
-An angular single page app forked a sample at [Anthony Alicea](https://www.udemy.com/learn-angularjs/)'s Learn and Understand AngularJS course at [Udemy](https://www.udemy.com).
+An angular single page app forked from a sample on [Anthony Alicea](https://www.udemy.com/learn-angularjs/)'s Learn and Understand AngularJS course at [Udemy](https://www.udemy.com).
 
 The goal of this project is to adapt a simple and working AngularJS app to the following tools and resources:
 
