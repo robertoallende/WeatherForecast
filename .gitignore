@@ -25,6 +25,9 @@ coverage
 
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
+gulp/.sass-cache
+gulp/public
+Starter
 
 # Dependency directories
 node_modules

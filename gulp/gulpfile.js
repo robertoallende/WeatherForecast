@@ -32,6 +32,7 @@ gulp.task('build-css', function() {
 gulp.task('watch', function() {
   gulp.watch('source/javascript/**/*.js', ['jshint']);
   gulp.watch('source/scss/**/*.scss', ['build-css']);
+  gulp.watch('source/*.html', ['copyHtml']);
   gulp.start('build');    
 });
 
@@ -59,3 +60,7 @@ gulp.task('serve-prod', serve({
 gulp.task('build', function() {
   gulp.start('copyHtml', 'build-css', 'build-js');
 })
+
+gulp.task('dev', ['build', 'watch', 'serve']);
+
+
