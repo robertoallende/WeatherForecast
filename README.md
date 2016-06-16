@@ -4,7 +4,7 @@ An angular single page app forked a sample at [Anthony Alicea](https://www.udemy
 The goal of this project is to adapt a simple and working AngularJS app to the following tools and resources:
 
 * [Gulp](http://gulpjs.com/)
-* Concat & Uglyfy.
+* Concat.
 * [SASS](http://sass-lang.com/)
 * [Angular 1 Style Guide](https://github.com/johnpapa/angular-styleguide/blob/master/a1/README.md)
 
